@@ -1,0 +1,164 @@
+body {
+    background-color: #efefef;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 14px;
+}
+.whapper {
+    max-width: 1100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 4px 0;
+}
+.nav > li {
+ margin-right: 15px;
+ margin-left: 15px;
+}
+.nav > li > a {
+    text-decoration: none;
+    color: #333333;
+}
+.header {
+    background-color: #fff;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 12px;
+    background-color: #efefef;
+}
+.logo {
+    color: #66c05D;
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+}
+.header-info span {
+    font-size:16px ;
+}
+.header-info button {
+    font-size: 14px;
+    border-radius: 20px ;
+    background-color: transparent;
+    border: 2px solid  #66c05D;
+    padding: 10px 25px;
+    margin-left: 36px;
+    
+}
+.header-info button:hover {
+   background-color: #66c05D;
+   transition: 0.2s ease;
+   cursor: pointer;
+}
+.header-botton {
+    padding: 15px 0;
+}
+.header-botton.nav{
+    font-size: 16px;
+    margin: 0;
+    color: #fff;
+}
+hr {
+    border: none;
+    background-color:#fff;
+    height: 1PX;
+}
+.title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 42px;
+}
+.title h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.banner p {
+    margin-bottom: 57px;
+    max-width: 315px;
+    line-height: 1.5;
+}
+.banner {
+    background-image: url(https://annblok.github.io/Beauty/img/bg.png);
+    padding-top: 159px;
+    padding-bottom: 204px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.btn {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px ;
+    background-color: transparent;
+    border: 2px solid  #fff;
+    padding: 9px 47px;
+    transition: 0.2s ease;
+    
+}
+.btn:hover {
+   background-color: #fff;  
+   color: #333333;
+}
+.logo-image {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(logo-image.svg);
+    margin-right: 20px;
+}
+.bg-watch {
+ background-color: #fff;
+}
+.gird {
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    
+    grid-gap: 30px;
+}
+.gird-item-title {
+    grid-column:1/4 ;
+    grid-row: 1/2;
+}
+.gird-item-img {
+    grid-column:4/5 ;
+    grid-row: 1/2;
+    text-align: center;
+}
+ .gird-item-catolog {
+    text-align: center;
+    padding: 15px 30px;
+ }
+ .gird-item-catolog .bg-watch {
+    padding: 15px 30px;
+ }
+ .gird-piona {
+    font-size: 21px;
+    font-weight: 500;
+    align-items: center;
+ }
+ .gird-btn {
+    
+    border-radius: 28px ;
+    background-color: #66c05D;
+    border: 2px solid  #66c05D;
+    transition: 0.2s ease;
+    cursor: pointer;
+    padding: 38px 43px;
+    text-decoration: none;
+    color: #fff;
+ }
